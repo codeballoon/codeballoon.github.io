@@ -2,7 +2,7 @@
 layout:     post
 title:      "Are your Google Maps controls broken?"
 date:       2015-04-14 7:05:00
-categories: google-maps
+categories: programming javascript
 ---
 While experimenting with Jekyll for the first time, I noticed that when I attempted to bring up a Google Map in an example page it had broken controls. If you've worked with Google Maps in a site using Foundation or Bootstrap, you've probably seen something like this at some point:
 
