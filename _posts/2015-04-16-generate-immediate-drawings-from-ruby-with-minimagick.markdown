@@ -37,9 +37,7 @@ Mac OSX, anyway -- you might need to substitute a different command for other pl
 
 ---
 
-A potentially useful and cool use case for this is visualizing (even just for debugging purposes) a set of polygon points or map
-coordinates. Since this is intended to run from IRB or the Rails console, simply write the image into a temp file and then open it
-for display.
+A potentially useful and cool use case for this is visualizing a set of polygon points or map coordinates (even if it's just for debugging purposes). Since this is intended to run from IRB or the Rails console, simply write the image into a temp file and then open it for display.
 
 {% highlight ruby %}
 class Polygon
@@ -76,9 +74,12 @@ end
 p = Polygon.new
 p.points = [[30, 30], [60, 90], [100, 20], [140, 50], [200, 80], [280, -10], [210, -25], [40, -50], [20, -30]]
 p.visualize
+#=> Image Displayed
 {% endhighlight %}
 
 ![Output Image]({{site.baseurl}}/img/example-polygon-output.png)
+
+Nice!
 
 [imagemagick]: http://www.imagemagick.org/
 [minimagick]: https://github.com/minimagick/minimagick
