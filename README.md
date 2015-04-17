@@ -1,2 +1,4 @@
 # codeballoon.github.io
-I don't know what it is, but it smells GREAT.
+The source code for my personal website, codeballoon.com.
+
+Powered by Jekyll and hosted on GitHub Pages.
